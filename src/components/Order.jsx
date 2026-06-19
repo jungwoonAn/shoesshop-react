@@ -18,9 +18,7 @@ const Order = () => {
             <button className="w-xs bg-green-500 hover:bg-green-600 text-white font-semibold text-base py-3.5 px-6 rounded-xl transition-all duration-200 shadow-md hover:shadow-lg active:scale-98 transform flex items-center justify-center gap-2" onClick={()=>{
                 dispatch(addItem({id:3, item:'오렌지', amount: 1}))
             }}>
-
                 오렌지 주문하기
-
             </button>
 
         </div>
