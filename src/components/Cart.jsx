@@ -66,7 +66,7 @@ const Cart = () => {
                                 cart.map(value =>
                                     <tr className="hover:bg-gray-50 transition-colors" key={value.id}>
                                         <td className="px-6 py-4 text-gray-400 font-normal">{value.id}</td>
-                                        <td className='px-6 py-4'><img src={import.meta.env.BASE_URL + value.imgUrl} className='w-[100px]' alt="productImage" /></td>
+                                        <td className='px-6 py-4'><img src={value.imgUrl} className='w-[100px]' alt="productImage" /></td>
                                         <td className="px-6 py-4 font-semibold text-gray-900">{value.item}</td>
                                         <td className="px-6 py-4 font-semibold text-gray-900">{value.price.toLocaleString()}</td>
                                         <td className="px-6 py-4">
